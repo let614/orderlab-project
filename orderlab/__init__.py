@@ -1,1 +1,1 @@
-# OrderLab package
+"""OrderLab application package."""
