@@ -19,3 +19,5 @@ jobs:
       - run: ruff format orderlab/tests/test_pricing.py
       - run: ruff format --check .
       - run: python -m pytest -q
+        env:
+          PYTHONPATH: ${{ github.workspace }}
